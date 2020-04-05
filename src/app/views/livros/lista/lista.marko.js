@@ -2,7 +2,7 @@
 "use strict";
 
 var marko_template = module.exports = require("marko/src/html").t(__filename),
-    marko_componentType = "/backend$1.0.0projetos-cursos/node-backend/src/app/views/livros/lista/lista.marko",
+    marko_componentType = "/backend$1.0.0/src/app/views/livros/lista/lista.marko",
     marko_renderer = require("marko/src/runtime/components/renderer"),
     marko_loadTag = require("marko/src/runtime/helpers/load-tag"),
     component_globals_tag = marko_loadTag(require("marko/src/core-tags/components/component-globals-tag")),
@@ -48,7 +48,7 @@ marko_template._ = marko_renderer(render, {
   });
 
 marko_template.meta = {
-    id: "/backend$1.0.0projetos-cursos/node-backend/src/app/views/livros/lista/lista.marko",
+    id: "/backend$1.0.0/src/app/views/livros/lista/lista.marko",
     tags: [
       "marko/src/core-tags/components/component-globals-tag",
       "marko/src/core-tags/components/init-components-tag",
